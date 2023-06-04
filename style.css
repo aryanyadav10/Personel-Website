@@ -1,0 +1,157 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header {
+    background-color: #be3144;
+    width: 100%;
+    padding: 10px;
+    position: fixed;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+}
+li {
+    margin: 15px;
+    font-size: 25px;
+}
+a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+ul {
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar {
+    padding-right: 10px;
+}
+.projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section { 
+    scroll-margin-top: 50px;
+}
+#about {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+}
+#about h1 {
+    font-size: 55px;
+    color: whitesmoke;
+    margin: 0;
+}
+h3 {
+    padding: 0;
+    margin: 10px;
+}
+#about h3 span {
+    font-size: 25px;
+    color: #be3144;
+    font-weight: 100;
+    font-style: italic;
+    padding: 0;
+    margin: 0;
+}
+#work h2 {
+    text-align: center;
+    margin: 0;
+    font-size: 35px;
+    padding: 50px 5px;
+    color: whitesmoke;
+    text-decoration: underline;
+}
+#work {
+    background-color: #45567d;
+}
+.pro {
+    text-align: center;
+    padding: 20px;
+}
+figure {
+    width: fit-content;
+    height: fit-content;
+    background-color: #3a3d40;
+    padding: 5px;
+}
+figcaption {
+    font-size: 25px;
+    padding: 10px 0px;
+}
+figcaption:hover {
+    text-decoration: underline whitesmoke;
+}
+.show {
+    font-size: 20px;
+    background-color: #3a3d40;
+    border:none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px 0px;
+    margin-bottom: 20px;
+    color: whitesmoke;
+}
+.show:hover {
+    background-color: #be3144;
+    cursor: pointer;
+}
+#contact {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #3a3d40;
+}
+#contact h1 {
+    color: whitesmoke;
+    font-size: 55px;
+    text-align: center;
+    margin: 10px;
+}
+#contact h4 {
+    color: whitesmoke;
+    font-weight: 100;
+    font-style: italic;
+    text-align: center;
+}
+#contact .icons {
+    margin: 20px 0px 0px 0px;
+
+}
+#contact ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+footer {
+    height: 20vh;
+    border-top: 5px solid #be3144;
+    background-color: #3a3d40;
+    font-size: 1.5rem;
+    color: whitesmoke;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+}
+
+@media screen and (max-width:663px){
+    html {
+        overflow-x: hidden;
+    }
+}
